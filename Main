@@ -1,0 +1,27 @@
+public class App {
+    public static void main( String[] args ){
+    	User Pembeli = new User("rafayel", "#ikanganteng");
+    	Pembeli.printMenu();
+    	
+    	int menu = 0;
+    	switch (menu) {
+    		case 1:
+    	}
+    }
+    
+    public void printMenu() {
+    	System.out.println("<<--------------------- Aplikasi Penjualan Buku --------------------->>");
+    	System.out.println("1. Informasi Buku");
+    	System.out.println("2. Checkout Buku");
+    	System.out.println("3. Pembayaran Buku");
+    	System.out.println("4. Lihat Status Pengiriman");
+    	System.out.println("5. Menambahkan Buku");
+    	System.out.println("6. Menghapus Buku");
+    	System.out.println("0. Log Out");
+    }
+    
+    public void printFooter() {
+    	System.out.println("<<------------------------------------------------------------------->>");
+    }
+    
+}
